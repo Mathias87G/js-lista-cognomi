@@ -24,10 +24,9 @@ for (var i = 0; i < lista.length; i++) {
 }
 
 // scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
-
 var trovato = false;
 
-var i = 0
+var i = 0;
 while (i < lista.length && trovato == false) {
   if (cognomeUser == lista[i]) {
     trovato = true;
